@@ -136,3 +136,10 @@ class SolutionO:
                 right -= 1
 
         return result
+
+solutionBF = SolutionBF()
+solutionO = SolutionO()
+
+print(f"Brute Force Solution: {solutionBF.trap([0,1,0,2,1,0,1,3,2,1,2,1])}")
+print(f"GFG Solution: {solutionO.maxWater([3, 0, 1, 0, 4, 0, 2])}")
+print(f"LC Solution: {solutionO.trap([0,1,0,2,1,0,1,3,2,1,2,1])}")
