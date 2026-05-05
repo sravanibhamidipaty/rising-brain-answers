@@ -30,6 +30,7 @@ class Solution:
         return longest
 
     def longestOnes(self, nums: List[int], k: int) -> int:
+        # LC: https://leetcode.com/problems/max-consecutive-ones-iii/description/
         maxx = 0
         left = 0
         n = len(nums)
