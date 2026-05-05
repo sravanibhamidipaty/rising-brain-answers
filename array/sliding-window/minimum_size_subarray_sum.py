@@ -7,6 +7,7 @@ from typing import List
 
 class SolutionGFG:
     def smallestSubWithSum(self, x, arr):
+        # GFG: https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1
         # Your code goes here
         current_sum = 0
         smallest = float("inf")
@@ -24,6 +25,7 @@ class SolutionGFG:
 
 class SolutionLC:
     def minSubArrayLen(self, x: int, arr: List[int]) -> int:
+        # LC: https://leetcode.com/problems/minimum-size-subarray-sum/
         smallest = float("inf")
         left = 0
         current_sum = 0
