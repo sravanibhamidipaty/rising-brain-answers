@@ -88,7 +88,6 @@ class SolutionGFG:
             if s_count == p_count:
                 count += 1
 
-        # This must be outside the for loop!
         return count
 
 solutionLC = SolutionLC()
