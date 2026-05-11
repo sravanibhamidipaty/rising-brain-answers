@@ -31,6 +31,20 @@ class Solution:
 
         return res
 
+"""
+TC: O(n)
+    - Each index of the array is pushed onto the stack exactly once.
+    - Each index is popped from the stack at most once (when its
+    "next greater" element is found).
+    - Since both push and pop operations are O(1), the total time
+    spent managing the stack across the entire loop is O(n).
+
+SC: O(n)
+    - Result Array: We maintain a res array of size n to store the output.
+    - Stack: In the worst-case scenario (e.g., a sorted array in descending
+    order like [5, 4, 3, 2, 1]), the stack will store all n indices before
+    any are popped.
+"""
 
 class SolutionLC:
     # LC: https://leetcode.com/problems/next-greater-element-i/description/
