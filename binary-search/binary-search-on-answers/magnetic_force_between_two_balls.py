@@ -41,6 +41,7 @@ Space Complexity: O(1) or O(N)
 
 
 class Solution:
+    # LC: https://leetcode.com/problems/magnetic-force-between-two-balls/description/
     def maxDistance(self, position: List[int], m: int) -> int:
         position.sort()
 
