@@ -70,3 +70,6 @@ class Solution:
             else:
                 right = mid - 1
         return res
+
+solution = Solution()
+print(f"LC Solution: {solution.maxDistance([1,2,3,4,7], 3)}")
