@@ -1,3 +1,5 @@
+from typing import List
+
 """
 Questions:
 Can temperatures be empty?
