@@ -46,3 +46,6 @@ class Solution:
             if i < n:
                 stack.append(idx)
         return res
+
+solution = Solution()
+print(f"LC Solution: {solution.nextGreaterElements([1,2,1])}")
