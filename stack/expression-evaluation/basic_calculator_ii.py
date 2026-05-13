@@ -71,3 +71,5 @@ class SolutionLC:
         res += last_number
         return res
 
+solutionLC = SolutionLC()
+print(f"LC Solution: {solutionLC.calculate("3+2*2")}")
