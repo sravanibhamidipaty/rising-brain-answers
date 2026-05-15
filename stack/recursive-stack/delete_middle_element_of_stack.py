@@ -67,8 +67,9 @@ class Solution:
 
         # We need to skip (len(stack)-target_from_bottom) elements
         self.solve(stack, len(stack) - target_from_bottom)
+        return stack
 
-    def solve(self, s, count):
+    def solve(self, stack, count):
         # Base Case: We have skipped the required elements,
         # the current top is the middle element.
         if count == 0:
@@ -77,10 +78,13 @@ class Solution:
 
         # Recursive Step:
         # 1. Remove the top element
-        temp = s.pop()
+        temp = stack.pop()
 
         # 2. Recurse to reach the middle element
         self.solve(stack, count - 1)
 
         # Backtrack: Put the element back
         stack.append(temp)
+
+solution  = Solution()
+print(f"GFG Solution: {solution.deleteMid([10, 20, 30, 40, 50])}")
