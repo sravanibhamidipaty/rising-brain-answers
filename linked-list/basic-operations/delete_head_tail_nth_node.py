@@ -122,6 +122,7 @@ SC: O(1)
 
 
 class SolutionLC:
+    # LC: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         if not head:
             return None
